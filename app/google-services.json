@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "6487651220",
+    "project_id": "tavsiyekitap-229bf",
+    "storage_bucket": "tavsiyekitap-229bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6487651220:android:ef98d37e683aed0236d581",
+        "android_client_info": {
+          "package_name": "com.vektorel.tavsiyekitap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6487651220-nllpmc3au82ieei2b2gjt7ue5qe8i3aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdkdU8DzWPdoVw9EaX4B5edvi5nWm5dzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6487651220-nllpmc3au82ieei2b2gjt7ue5qe8i3aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

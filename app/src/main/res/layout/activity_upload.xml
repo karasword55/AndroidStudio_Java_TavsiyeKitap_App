@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uploadresim3"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:onClick="selectimage"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <EditText
+        android:id="@+id/txtkitap_adi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="392dp"
+        android:ems="10"
+        android:hint="Kitap Adı"
+        android:inputType="textPersonName"
+        android:textColorHint="#050505"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnkaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="520dp"
+        android:onClick="tavsiyepaylas"
+        android:text="Tavsiyeni Paylaş"
+        android:textColor="#EAE5E5" />
+
+    <EditText
+        android:id="@+id/txttavsiye"
+        android:layout_width="401dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="428dp"
+        android:ems="10"
+        android:hint="Tavsiye.."
+        android:inputType="textPersonName"
+        android:textColorHint="#020202"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:text="Fotoğraf Seçiniz"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="152dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="566dp"
+        android:text="Maksimum 240 karakter yazabilirsin!"
+        android:textColor="#E8DFDF"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/recyclerview_useremail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#F6F3F3"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/recyclerview_image"
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:layout_gravity="center"
+            app:srcCompat="@android:drawable/checkbox_off_background" />
+
+        <TextView
+            android:id="@+id/recyclerview_kitapadi"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#F4EEEE"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recyclerview_kitapyorum"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#F4F3F3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/white" />
+
+
+
+
+
+
+</RelativeLayout>
